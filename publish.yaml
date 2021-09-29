@@ -1,0 +1,19 @@
+Type: Application
+Name: FG-todolist-app
+Version: 0.0.1
+Provider:
+  - 华为云
+Description: 一款基于Node.JS的网页TodoList应用（华为云）
+HomePage: https://github.com/xinwuyun/FG-todolist-app
+Tags:
+  - todoList
+  - 云应用
+Category: 基础云服务
+Service:
+  函数计算:
+    Authorities:
+      - 创建函数
+      - 删除函数
+      - 创建服务
+      - 删除服务
+    Runtime: Node.JS
